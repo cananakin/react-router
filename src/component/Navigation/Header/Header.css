@@ -1,0 +1,33 @@
+.Header {
+    display: flex;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    background-color: #dddddd;
+}
+.Header h3 {
+    margin: 0;
+    padding-left: 20px;
+    margin-right: auto;
+}
+
+.Header nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.Header nav li{
+    display: inline;
+    margin: 20px;
+}
+
+.Header nav a{
+    text-decoration: none;
+    color: #fc3431
+}
+
+.Header nav a.active {
+    font-weight: bold;
+}
